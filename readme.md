@@ -1,4 +1,4 @@
-<img src="./assets/nextlevelweek_logo.svg" align="center"></img>
+<p  align="center"><img src="./assets/nextlevelweek_logo.svg" align="center"></img></p>
 
 <h1 align="center">Next Level Week #1</h1>
 <p  align="center">Projeto <strong>Ecoleta</strong> desenvolvido durante a Next Level Week #1 da <a  href="https://rocketseat.com.br">Rocketseat</a>.</p>
