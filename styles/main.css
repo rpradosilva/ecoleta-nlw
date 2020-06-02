@@ -1,16 +1,17 @@
 :root {
-  --title-color: #322153;
-  --text-color: #6c6c80;
-  --primary-color: #34cb79;
-}
-
-html,
-button {
-  font-family: Roboto, sans-serif;
+  --greenpeace: #34cb79;
+  --desaturado: #e1faec;
+  --titulo: #322153;
+  --texto: #6c6c80;
+  --suporte: #a0a0b2;
+  --bloco: #ffffff;
+  --background: #f0f0f5;
 }
 
 body {
-  background: #f0f0f5;
+  font-family: Roboto, sans-serif;
+  background: var(--background);
+  color: var(--titulo);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -18,122 +19,107 @@ a {
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--title-color);
-  font-family: Ubuntu, sans-serif;
-}
-
-#page-home {
+#fundo {
   height: 100vh;
   background: url("../assets/home-background.svg") no-repeat 35vw bottom;
 }
 
-#page-home .content {
-  margin: 0 auto;
+.content {
+  max-width: 1120px;
   width: 90%;
-  max-width: 1300px;
+  margin: 0 auto;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 
-#page-home .content header {
+header {
   margin: 46px 0 0 0;
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
-#page-home .content header a {
-  color: var(--title-color);
-  font-weight: 700;
+header a {
   display: flex;
   align-items: center;
+}
+
+header a:nth-child(2) {
   padding: 13px;
 }
 
-#page-home .content header a span {
-  display: flex;
+header a:nth-child(2) img {
   margin: 0 19px 0 0;
-  background: url("../assets/log-in.svg");
-  width: 20px;
-  height: 20px;
 }
-#page-home .content main {
-  max-width: 560px;
-  flex: 1;
+
+main {
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 560px;
 }
 
-#page-home .content main h1 {
+main h1 {
+  font-family: Ubuntu, sans-serif;
   font-weight: 700;
   font-size: 54px;
   line-height: 64px;
 }
 
-#page-home .content main p {
+main p {
   font-weight: 300;
   margin: 24px 0 40px 0;
-  color: var(--text-color);
+  color: var(--texto);
   font-size: 24px;
   line-height: 38px;
   max-width: 448px;
 }
 
-#page-home .content main a {
-  color: #fff;
-  background: var(--primary-color);
+main a {
+  color: var(--bloco);
+  background: var(--greenpeace);
   border-radius: 8px;
-  width: 100%;
-  max-width: 360px;
-  height: 72px;
+  max-width: 348px;
+  max-height: 72px;
   font-size: 16px;
   line-height: 19px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   font-weight: 700;
 }
 
-#page-home .content main a:hover {
+main a:hover {
   background: #2fb86e;
   transition: 400ms;
 }
 
-#page-home .content main a span {
-  border-radius: 8px 0px 0px 8px;
-  background: rgba(0, 0, 0, 0.08) url("../assets/search.svg") no-repeat center
-    center;
-  height: 72px;
-  width: 72px;
+main a span {
+  padding: 26px 40px;
 }
 
-#page-home .content main a strong {
-  flex: 1;
-  text-align: center;
+main a img {
+  border-radius: 8px 0 0 8px;
+  padding: 26px;
+  background: rgba(0, 0, 0, 0.08);
 }
 
 @media (max-width: 900px) {
-  #page-home {
+  #fundo {
     background-position-x: 72vw;
   }
-  #page-home .content {
+  .content {
     align-items: center;
     text-align: center;
   }
-  #page-home .content header a {
+  header a:nth-child(2) {
     position: absolute;
     bottom: 48px;
     left: 50%;
     transform: translateX(-50%);
   }
-  #page-home .content main {
+  main {
     align-items: center;
   }
 }
