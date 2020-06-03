@@ -1,0 +1,171 @@
+#fundo {
+  height: 100vh;
+  background: url("../assets/home-background.svg") no-repeat 39vw bottom;
+}
+
+.content {
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  margin: 46px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+header a {
+  color: var(--titulo);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+header a:nth-child(2) img {
+  margin: 0 16px 0 0;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main h1 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 64px;
+  max-width: 560px;
+}
+
+main p {
+  font-weight: 300;
+  margin: 24px 0 40px 0;
+  color: var(--texto);
+  font-size: 24px;
+  line-height: 38px;
+  max-width: 448px;
+}
+
+main a {
+  color: var(--bloco);
+  background: var(--greenpeace);
+  border-radius: 8px;
+  max-width: 348px;
+  max-height: 72px;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  transition: background 400ms;
+}
+
+main a:hover {
+  background: #2fb86e;
+}
+
+main a span {
+  padding: 26px 40px;
+}
+
+main a img {
+  border-radius: 8px 0 0 8px;
+  padding: 26px;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+main form {
+  box-sizing: border-box;
+  margin: 80px auto;
+  max-width: 740px;
+  background: var(--bloco);
+  padding: 64px;
+  border-radius: 8px;
+}
+
+main form h1 {
+  max-width: 100%;
+  font-size: 36px;
+  line-height: 41px;
+}
+
+main form h2 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0 0 40px 0;
+}
+
+main form fieldset {
+  margin: 64px 0 0 0;
+}
+main form legend {
+  margin: 40px 0 0 0;
+}
+
+main form label {
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0 0 8px 0;
+  color: var(--texto);
+}
+
+form .field {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 0 0 24px 0;
+}
+
+form .field-group {
+  display: flex;
+}
+
+form .field-group .field:nth-child(2) {
+  margin: 0 0 0 24px;
+}
+
+main form input,
+main form select,
+main form option {
+  border: none;
+  outline-color: var(--greenpeace);
+  border-radius: 8px;
+  padding: 18px 24px;
+  background: var(--background);
+  color: var(--texto);
+  font-size: 16px;
+  line-height: 19px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+main form button {
+  color: var(--bloco);
+  background: var(--greenpeace);
+  border-radius: 8px;
+  max-width: 300px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 700;
+  padding: 18px 40px;
+  border: none;
+  outline: transparent;
+  margin: 40px 0 0 0;
+  transition: opacity 400ms;
+}
+
+main form button:hover {
+  opacity: 0.8;
+}

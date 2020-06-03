@@ -6,10 +6,16 @@
 
 ## O que eu aprendi
 
+##### Cronograma
+
+- [x] Aula 1
+- [x] Aula 2
+
 ##### Front-end
 
 - [x] HTML
 - [x] CSS
+- [x] Javascript
 
 ## Licença
 
