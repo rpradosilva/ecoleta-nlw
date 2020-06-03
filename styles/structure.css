@@ -66,11 +66,11 @@ main a {
   justify-content: space-between;
   align-items: center;
   font-weight: 700;
-  transition: background 400ms;
 }
 
 main a:hover {
   background: #2fb86e;
+  transition: background 400ms;
 }
 
 main a span {
@@ -163,9 +163,47 @@ main form button {
   border: none;
   outline: transparent;
   margin: 40px 0 0 0;
-  transition: opacity 400ms;
+  cursor: pointer;
 }
 
 main form button:hover {
   opacity: 0.8;
+  transition: opacity 400ms;
+}
+
+.items-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.items-grid li{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background: var(--background);
+  border-radius: 8px;
+  border: 2px solid var(--background);
+  height: 180px;
+  padding: 32px 24px 16px;
+  cursor: pointer;
+}
+
+.items-grid li.selected{
+  background: var(--desaturado);
+  border: 2px solid var(--greenpeace);
+}
+
+.items-grid li span{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin: 12px 0 0 0;
+}
+
+.items-grid li span,
+.items-grid li img{
+  pointer-events: none;
 }
