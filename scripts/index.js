@@ -75,33 +75,6 @@ function handleSelectedItem(event) {
 
 //console.log(alreadySelected)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 
