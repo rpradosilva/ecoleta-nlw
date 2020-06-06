@@ -11,14 +11,22 @@
 - [x] Aula 1
 - [x] Aula 2
 - [x] Aula 3
-- [ ] Aula 4
+- [x] Aula 4
 - [ ] Aula 5
 
-##### Front-end
+##### Frontend
 
 - [x] HTML
 - [x] CSS
 - [x] Javascript
+
+##### Backend
+
+- [x] Node
+- [x] Git
+- [x] Express
+- [x] nodemon
+- [x] nunjucks
 
 ## Licença
 
