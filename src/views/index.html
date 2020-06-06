@@ -1,5 +1,7 @@
 {% extends "layout.html" %}
 
+{% set bodyId = "Home" %}
+
 {% block bgInit %}
     <div id="fundo">
     {% endblock bgInit %}
@@ -29,6 +31,6 @@
 {% endblock bgEnd %}
 
 {% block footer %}
-    {% include "partials/modal.html" %}}
+    {% include "partials/modal.html" %}
     <script src="/scripts/modal.js"></script>
 {% endblock footer %}

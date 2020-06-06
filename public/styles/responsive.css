@@ -23,6 +23,13 @@
     .cards h4 {
         text-align: center;
     }
+    .field-group {
+        flex-direction: column;
+        margin: 8px 0 8px 0;
+    }
+    form .field-group .field:nth-child(2) {
+        margin: 0 0 8px 0;
+    }
 }
 
 @media (min-width: 1700px) {
