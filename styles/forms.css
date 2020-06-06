@@ -1,0 +1,125 @@
+form {
+    box-sizing: border-box;
+    margin: 80px auto;
+    max-width: 740px;
+    background: var(--bloco);
+    padding: 64px;
+    border-radius: 8px;
+}
+
+form h1 {
+    max-width: 100%;
+    font-size: 36px;
+    line-height: 41px;
+}
+
+form h2 {
+    font-family: Ubuntu, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 40px 0;
+}
+
+form fieldset {
+    margin: 64px 0 0 0;
+}
+
+form legend {
+    margin: 40px 0 0 0;
+}
+
+form label {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 0 8px 0;
+    color: var(--texto);
+}
+
+form .field {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0 0 24px 0;
+}
+
+form .field-group {
+    display: flex;
+}
+
+form .field-group .field:nth-child(2) {
+    margin: 0 0 0 24px;
+}
+
+form input,
+form select,
+form option {
+    border: none;
+    outline-color: var(--greenpeace);
+    border-radius: 8px;
+    padding: 18px 24px;
+    background: var(--background);
+    color: var(--texto);
+    font-size: 16px;
+    line-height: 19px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+form button {
+    color: var(--bloco);
+    background: var(--greenpeace);
+    border-radius: 8px;
+    max-width: 300px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+    padding: 18px 40px;
+    border: none;
+    outline: transparent;
+    margin: 40px 0 0 0;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+form button:hover {
+    background: #2fb85e;
+}
+
+.items-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.items-grid li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background: var(--background);
+    border-radius: 8px;
+    border: 2px solid var(--background);
+    height: 180px;
+    padding: 32px 24px 16px;
+    cursor: pointer;
+}
+
+.items-grid li.selected {
+    background: var(--desaturado);
+    border: 2px solid var(--greenpeace);
+}
+
+.items-grid li span {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin: 12px 0 0 0;
+}
+
+.items-grid li span,
+.items-grid li img {
+    pointer-events: none;
+}

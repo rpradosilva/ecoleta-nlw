@@ -1,0 +1,95 @@
+#fundo {
+    height: 100vh;
+    background: url("../assets/home-background.svg") no-repeat 39vw bottom;
+}
+
+.content {
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin: 46px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    color: var(--titulo);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+header a:nth-child(2) img {
+    margin: 0 16px 0 0;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main h1 {
+    font-family: Ubuntu, sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    max-width: 560px;
+}
+
+main h4 {
+    color: var(--texto);
+    font-size: 16px;
+    line-height: 26px;
+    margin: 32px 0;
+}
+
+main h4 strong {
+    font-weight: 700;
+}
+
+main p {
+    font-weight: 300;
+    margin: 24px 0 40px 0;
+    color: var(--texto);
+    font-size: 24px;
+    line-height: 38px;
+    max-width: 448px;
+}
+
+main a {
+    color: var(--bloco);
+    background: var(--greenpeace);
+    border-radius: 8px;
+    max-width: 348px;
+    max-height: 72px;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+}
+
+main a:hover {
+    background: #2fb86e;
+    transition: background 400ms;
+}
+
+main a span {
+    padding: 26px 40px;
+}
+
+main a img {
+    border-radius: 8px 0 0 8px;
+    padding: 26px;
+    background: rgba(0, 0, 0, 0.08);
+}
