@@ -12,7 +12,7 @@
 - [x] Aula 2
 - [x] Aula 3
 - [x] Aula 4
-- [ ] Aula 5
+- [x] Aula 5
 
 ##### Frontend
 
@@ -27,6 +27,7 @@
 - [x] Express
 - [x] nodemon
 - [x] nunjucks
+- [x] Banco de Dados (SQL) - SQLite
 
 ## Licença
 

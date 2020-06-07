@@ -21,7 +21,7 @@ function populateUfs() {
 // Importar Cidades com base nos estados
 function getCities(event) {
     const citySelect = document.querySelector("[name=city]")
-    const stateInput = document.querySelector("[name=ufname]")
+    const stateInput = document.querySelector("[name=state]")
 
     const indexOfSelectedState = event.target.selectedIndex
     stateInput.value = event.target.options[indexOfSelectedState].text
