@@ -1,38 +1,53 @@
-<p  align="center"><img src="https://raw.githubusercontent.com/rpradosilva/ecoleta-nlw/1e429eb5c9c5793cfbf0cb1f5daaa21cd4d71b34/public/assets/nextlevelweek_logo.svg" align="center"></img></p>
+<div align="center">
+    <img src=".github/nextlevelweek_logo.svg" width="150"/>
+    <br><br>
+    
+[![GitHub](https://img.shields.io/github/license/rpradosilva/rocketseat-clone-challenge?color=%237159c1&style=flat)](/LICENSE)
+[![Rocketseat](https://img.shields.io/badge/made%20by-Rocketseat-%237159C1)](https://rocketseat.com.br)
+<br>
+</div>  
 
-<h1 align="center">Next Level Week #1</h1>
-<p  align="center">Projeto <strong>Ecoleta</strong> desenvolvido durante a Next Level Week #1 da <a  href="https://rocketseat.com.br">Rocketseat</a>.</p>
-<p  align="center"><a  href="https://rocketseat.com.br" align="center"><img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%237159C1" align="center"></a></p>
 
-## O que eu aprendi
 
-##### Cronograma
+# :pushpin: Proposal
+### Create a application to local recycling (*Ecoleta*)
 
-- [x] Aula 1
-- [x] Aula 2
-- [x] Aula 3
-- [x] Aula 4
-- [x] Aula 5
+> Search and identify local recycling
 
-##### Frontend
+> Companies add local recycling by type
 
-- [x] HTML
-- [x] CSS
-- [x] Javascript
+> **Frontend Tecnologies**: HTML, CSS, Javascript
 
-##### Backend
+> **Backend Tecnologies**: Node, Express, nodemon, nunjucks and SQLite
 
-- [x] Node
-- [x] Git
-- [x] Express
-- [x] nodemon
-- [x] nunjucks
-- [x] Banco de Dados (SQL) - SQLite
+<div align="center">
+    <img src=".github/print.png" width="100%"/>
+</div>
 
-## Licença
+## :runner: Getting Started
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+**You need Node installed.**
+
+### **1.** Clone repository:
+
+```git clone git@github.com:rpradosilva/rocketseat-clone-challenge.git```
+
+### **2.** Install packages:
+
+```npm install```
+
+### **3.** Run project:
+
+```npm start```
+
+### **4.** Live Preview:
+
+```localhost:3000```
+
+## :memo: License
+
+This project is protected by the MIT license. See the file [LICENSE](/LICENSE) for more details.
 
 ---
 
-Feito com ♥ por [Rafael Prado](http://rprado.design)
+Made with ♥ by [Rafael Prado](http://rprado.design)
