@@ -2,7 +2,6 @@
     <img src=".github/nextlevelweek_logo.svg" width="150"/>
     <br><br>
     
-[![GitHub](https://img.shields.io/github/license/rpradosilva/rocketseat-clone-challenge?color=%237159c1&style=flat)](/LICENSE)
 [![Rocketseat](https://img.shields.io/badge/made%20by-Rocketseat-%237159C1)](https://rocketseat.com.br)
 <br>
 </div>  
