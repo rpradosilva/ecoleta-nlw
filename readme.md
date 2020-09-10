@@ -16,7 +16,7 @@
 <br>
 
 [![](https://img.shields.io/badge/-License-202024)](/LICENSE)
-[![](https://img.shields.io/badge/-Sugestions-202024)](issues/new/choose)
+[![](https://img.shields.io/badge/-Sugestions-202024)](https://github.com/rpradosilva/ecoleta-nlw/issues/new/choose)
 
 </div>
 
